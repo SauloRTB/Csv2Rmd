@@ -1,0 +1,11 @@
+
+html/
+pdf/
+venv/
+.DS_Store
+.Rproj.user
+.~lock.dicionario.csv\#
+teste.py
+pendencias-arquivos.txt
+pendencias-campos.txt
+README.pdf
