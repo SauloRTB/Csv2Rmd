@@ -1,9 +1,4 @@
----
-output:
-  word_document: default
-  html_document: default
-  pdf_document: default
----
+
 # csv2rmd: Um programa python para produzir dicionário multimídia com Markdown
 
 Por favor use a referência seguinte para citar o programa em qualquer publicação que resulte de seu uso:
