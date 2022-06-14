@@ -143,11 +143,8 @@ Na pasta gerada pelo script (pasta "html") você deverá abrir o arquivo "site.R
 
 ![](img-read/criando-intro-html.png)
 
-## Customização do projeto (links úteis)
 
-Um projeto do Rstudio pode ser costumizado de diversas maneiras, para tal e necessário conhecer os arquivos de configurações e a opções disponiveis nestes arquivos, para tal seguem alguns links úteis sobre os projetos de site em HTML e PDF's em R Markdown:
 
-(listar links e tutoriais)
 
 
 
