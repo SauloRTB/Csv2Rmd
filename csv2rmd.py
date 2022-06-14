@@ -702,7 +702,6 @@ def cria_preamble_tex():
     arquivo = open(os.getcwd() + "/pdf/" + "preamble.tex", mode="w+", encoding="utf-8")
     arquivo.write(r'''\usepackage{booktabs}
 \usepackage{fontspec}
-\defaultfontfeatures[\rmfamily]{}
 \setmainfont{Arial}
 \renewcommand{\contentsname}{Sumário}
 \renewcommand{\chaptername}{Capítulo}
