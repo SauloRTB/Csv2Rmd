@@ -1,4 +1,6 @@
+[![DOI](https://zenodo.org/badge/503373432.svg)](https://zenodo.org/badge/latestdoi/503373432)
 <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.
+
 
 # csv2rmd: Um programa python para produzir dicionário multimídia com Markdown
 
