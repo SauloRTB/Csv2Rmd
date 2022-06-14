@@ -1,14 +1,12 @@
----
-output:
-  word_document: default
-  html_document: default
-  pdf_document: default
----
+[![DOI](https://zenodo.org/badge/503373432.svg)](https://zenodo.org/badge/latestdoi/503373432)
+<a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc/3.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-NonCommercial 3.0 Unported License</a>.
+
+
 # csv2rmd: Um programa python para produzir dicionário multimídia com Markdown
 
 Por favor use a referência seguinte para citar o programa em qualquer publicação que resulte de seu uso:
 
-BRITO, Saulo; BIRCHALL, Joshua. 2022. **csv2rmd**: Um programa python para produzir dicionário multimídia com Markdown. Versão 0.1. Belém: Museu Paraense Emílio Goeldi. 
+BRITO, Saulo; BIRCHALL, Joshua. 2022. **csv2rmd**: Um programa python para produzir dicionário multimídia com Markdown. Versão 0.1. Belém: Museu Paraense Emílio Goeldi. DOI: [https://doi.org/10.5281/zenodo.6642438](https://doi.org/10.5281/zenodo.6642438).
 
 Projeto de elaboração de um script em python para criar arquivos RMD de dicionário (html ou pdf) a partir de arquivo(s) csv. Esse programa foi elaborado como parte do projeto NEH-DEL FN-266285 "Documentation and dictionary of Oro Win (orw)" do Joshua Birchall. 
 
@@ -37,7 +35,7 @@ Para transformar os RMD's gerados pelo script em HTML ou PDF, você precisará:
 
 ## Preenchimento do arquivo dicionario.csv
 
-O arquivo "dicionario.csv" nada mais é que uma planilha com valores separados por vírgula que pode ser aberto e alimentado em qualquer editor de planilhas comumente usado em computadores. Nesse arquivos as entradas são inseridas por palavra, Alguns campos utilizados na plailha são **obrigatórios** para o funcionamento correto do script:
+O arquivo "dicionario.csv" nada mais é que uma planilha com valores separados por vírgula que pode ser aberto e alimentado em qualquer editor de planilhas comumente usado em computadores. Nesse arquivos as entradas são inseridas por palavra, Alguns campos utilizados na planilha são **obrigatórios** para o funcionamento correto do script:
 
 
 - Item lexical	(ITEM_LEXICAL):
@@ -62,26 +60,17 @@ Arquivo de vídeo (ARQUIVO_VIDEO)
 É recomendado que se adicionados os arquivos de som as respectivas traduções e e transcrições sejam adicionadas.
 
 
-### Exemplo de preenchimento do arquivo dicionario.csv
-
-
-
-ID|ITEM_LEXICAL|IMAGEM|ARQUIVO_SONORO|TRANSCRICAO_FONETICA|CLASSE_GRAMATICAL|TRADUCAO_SIGNIFICADO|DESCRICAO|EXEMPLO_USO_ARQUIVO_SONORO|TRANSCRICAO_EXEMPLO|TRADUCAO_EXEMPLO|ARQUIVO_VIDEO|CAMPO_SEMANTICO|ITENS_RELACIONADOS|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-||kawajikam ||orw_20200224_lw_co_01_macaco_kawajikam.wav|[kawaji'kam]|substantivo|cipó para manufatura|Descrição 1|orw_20200224_lw_co_01_macaco_kawajikam_ex.wav|ten ta kawajikam mam fo' a ta|eu vou fazer uma vassoura de cipó|||plantas||
-||sakat||orw_20200224_lw_co_01_macaco_sakat.wav|[sa'kat]|verbo|rachar|Descrição 3|orw_20200224_lw_co_01_macaco_sakat_ex.wav|ta' sakat onon|eu cortei e rachei (o cipó)|||verbos de ação||
-
 
 ## Rodando o script
 
-Uma vez que os pré requisitos para rodar o script tenham sido atendidos, você pode executar o mesmo utilizando linha de comando ou usando editores como o própio IDLE que vem junto da instalação do python. 
+Uma vez que os pré requisitos para rodar o script tenham sido atendidos, você pode executar o mesmo utilizando linha de comando ou usando editores como o próprio IDLE que vem junto da instalação do python. 
 
 
 ### Opções disponíveis no script
 
- - ```1 - Validar tabela ("dicionario.csv")```: Cria um arquivo de texto para pendências em campos essenciais para rodar o script (ITEM_LEXICAL, TRANSCRICAO_FONETICA, CLASSE_GRAMATICAL, CLASSE_GRAMATICAL, CAMPO_SEMANTICO.) e um arquivo de texto para pendências  em arquivos (arquivos da tabela não contidos na pasta), o arquivo para descrever as pendencias de arquivo vai adicionar também o número de entradas na planilha sem determinados tipos de arquivo
+ - ```1 - Validar tabela ("dicionario.csv")```: Cria um arquivo de texto para pendências em campos essenciais para rodar o script (ITEM_LEXICAL, TRANSCRICAO_FONETICA, CLASSE_GRAMATICAL, CLASSE_GRAMATICAL, CAMPO_SEMANTICO.) e um arquivo de texto para pendências  em arquivos (arquivos da tabela não contidos na pasta), o arquivo para descrever as pendências de arquivo vai adicionar também o número de entradas na planilha sem determinados tipos de arquivo
 
-- ```2 - Gerar arquivos RMD para criar PDF```: Cria os arquivos RMD para utilizar em um projeto Bookdown no RStudio organizados em “língua-pt” e “pt-língua” (necessário informar um código para o nome da língua para noemar os arquivos RMD, e o nome da língua como deve aparecer no documento)
+- ```2 - Gerar arquivos RMD para criar PDF```: Cria os arquivos RMD para utilizar em um projeto Bookdown no RStudio organizados em “língua-pt” e “pt-língua” (necessário informar um código para o nome da língua para nomear os arquivos RMD, e o nome da língua como deve aparecer no documento)
 
 - ```3 - Gerar arquivos RMD para criar HTML```: Cria os RMD’s separados por campos semânticos para criar um site html (necessário informar o nome do autor e o nome da língua como deve aparecer no documento)
 
@@ -89,7 +78,7 @@ Uma vez que os pré requisitos para rodar o script tenham sido atendidos, você 
 
 #### Opção de informação de autor e data aos arquivos de áudio e vídeo no html
 
- Ao utilizar a opção de  ```Gerar arquivos RMD para criar HTML``` você tera a opção de adicionar as informações de autor e data para os arquivos de áudio e vídeo no entando para utilizar essa versão é necessário que os arquivos estejam  com a nomeclatura padrão do Museu Goeldi:
+ Ao utilizar a opção de  ```Gerar arquivos RMD para criar HTML``` você terá a opção de adicionar as informações de autor e data para os arquivos de áudio e vídeo no entanto para utilizar essa versão é necessário que os arquivos estejam  com a nomenclatura padrão do Museu Goeldi:
 
  <p align="center">COD-AAAAMMDD-PES-FAL-FAL-sessao-num</p>
 
@@ -102,7 +91,7 @@ Uma vez que os pré requisitos para rodar o script tenham sido atendidos, você 
  - num: uma numeração opcional para distinguir arquivos do mesmo formato que façam parte da mesma sessão.
 
 
- Além da nomeclatura é necessário o uso de um arquivo CSV contendo as informações de autor e sigla dos falantes que você deseja que apareçam no documento como a seguir:
+ Além da nomenclatura é necessário o uso de um arquivo CSV contendo as informações de autor e sigla dos falantes que você deseja que apareçam no documento como a seguir:
 
 codigo|ator
 |---|---|
@@ -135,7 +124,7 @@ Depois de seguir  esses passos você vai encontrar o arquivo pdf gerado em uma p
 
 ### Criando um dicionário  multimídia HTML
 
-Se o seu projeto incluir áudios, fotos ou vídeos, o primeiro passo será transferir as pastas de midia ou cópias das mesmas para dentro da pasta "html".
+Se o seu projeto incluir áudios, fotos ou vídeos, o primeiro passo será transferir as pastas de mídia ou cópias das mesmas para dentro da pasta "html".
 
 Na pasta gerada pelo script (pasta "html") você deverá abrir o arquivo "site.Rproj", a tela principal  do Rstudio será aberta com os arquivos do projeto disponíveis na parte 4 da tela, você deverá então seguir os passos unicamente na tela do Rstudio:
 
@@ -144,27 +133,3 @@ Na pasta gerada pelo script (pasta "html") você deverá abrir o arquivo "site.R
 -  Clicar na aba ```Build``` e em ```Build Website```
 
 ![](img-read/criando-intro-html.png)
-
-## Customização do projeto (links úteis)
-
-Um projeto do Rstudio pode ser costumizado de diversas maneiras, para tal e necessário conhecer os arquivos de configurações e a opções disponiveis nestes arquivos, para tal seguem alguns links úteis sobre os projetos de site em HTML e PDF's em R Markdown:
-
-(listar links e tutoriais)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

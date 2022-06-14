@@ -1,0 +1,19 @@
+{
+    "title": " csv2rmd: Um programa python para produzir dicionário multimídia com Markdown",
+    "creators": [
+        {
+            "name": "Saulo Brito"
+        },
+        {
+            "name": "Joshua Birchall"
+        }
+    ],
+    "access_right": "open",
+    "keywords": [
+        "linguistics"
+    ],
+    "license": {
+        "id": "CC-BY-NC-3.0"
+    },
+  "upload_type": "software"
+}
