@@ -6,7 +6,7 @@
 
 Por favor use a referência seguinte para citar o programa em qualquer publicação que resulte de seu uso:
 
-BRITO, Saulo; BIRCHALL, Joshua. 2022. **csv2rmd**: Um programa python para produzir dicionário multimídia com Markdown. Versão 0.1. Belém: Museu Paraense Emílio Goeldi. 
+BRITO, Saulo; BIRCHALL, Joshua. 2022. **csv2rmd**: Um programa python para produzir dicionário multimídia com Markdown. Versão 0.1. Belém: Museu Paraense Emílio Goeldi. Doi: 10.5281/zenodo.6642438
 
 Projeto de elaboração de um script em python para criar arquivos RMD de dicionário (html ou pdf) a partir de arquivo(s) csv. Esse programa foi elaborado como parte do projeto NEH-DEL FN-266285 "Documentation and dictionary of Oro Win (orw)" do Joshua Birchall. 
 
