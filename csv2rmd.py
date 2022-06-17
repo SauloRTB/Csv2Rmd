@@ -703,6 +703,7 @@ def cria_preamble_tex():
     arquivo.write(r'''\usepackage{booktabs}
 \usepackage{fontspec}
 \setmainfont{Arial}
+\let\cleardoublepage\clearpage
 \renewcommand{\contentsname}{Sumário}
 \renewcommand{\chaptername}{Capítulo}
 \usepackage{textcomp}''')
