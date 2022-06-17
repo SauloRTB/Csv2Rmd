@@ -46,7 +46,7 @@ def listar_campos_semanticos(dataframe):
         if campo_semantico.capitalize() not in campos_semanticos:
             campos_semanticos.append(campo_semantico.capitalize())
             campos_semanticos_normalizado.append(
-                strip_accents(campo_semantico.replace(' ', '-')))
+                strip_accents(campo_semantico.replace(' ', '-').capitalize()))
     return campos_semanticos, campos_semanticos_normalizado
 
 def cria_lista_dicionario(dataframe): 
