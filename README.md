@@ -95,10 +95,8 @@ Uma vez que os pré requisitos para rodar o script tenham sido atendidos, você 
 
 codigo|ator
 |---|---|
-TI|Ti'omi Oro Towati'
-CO|Parira Oro Win
-HO|Hoto Oro Win
-MA|Maria Oro Win
+JB|Joshua Birchall
+
 
 ## Gerando os produtos no RStudio
 
