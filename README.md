@@ -43,8 +43,7 @@ O arquivo "dicionario.csv" nada mais é que uma planilha com valores separados p
 
 - Transcrição fonética (TRANSCRICAO_FONETICA)
 - Classe gramatical (CLASSE_GRAMATICAL)
-- Tradução ou significado (TRADUCAO_SIGNIFICADO)
-- Descrição (DESCRICAO)		
+- Tradução ou significado (TRADUCAO_SIGNIFICADO)	
 - Campo semântico (CAMPO_SEMANTICO)
 
 Os outros campos são opcionais:
@@ -53,6 +52,7 @@ Os outros campos são opcionais:
 - Imagem (IMAGEM): Nome do arquivo de imagem referente a entrada que deve estar contido na pasta "foto"
 - Arquivo sonoro (ARQUIVO_SONORO): Nome do arquivo de som referente a entrada que deve estar contido na pasta "audio"
 - Arquivo sonoro do exemplo de uso (EXEMPLO_USO_ARQUIVO_SONORO): Nome do arquivo de som referente ao exemplo de uso da entrada que deve estar contido na pasta "audio"	
+- Descrição (DESCRICAO)	
 - Transcrição do exemplo (TRANSCRICAO_EXEMPLO)	
 - Tradução do exemplo (TRADUCAO_EXEMPLO)	
 Arquivo de vídeo (ARQUIVO_VIDEO)
